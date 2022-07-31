@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-flow: wrap;
+  gap: 3rem;
+  justify-content: center;
+}
+.file {
+  width: 19rem;
+  height: 10rem;
+  border: 1px solid;
+  text-align: center;
+  font-size: 8rem;
+}

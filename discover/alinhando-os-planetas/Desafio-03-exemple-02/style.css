@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-flow: wrap;
+  gap: 3rem;
+  justify-content: center;
+}
+img {
+  width: 30%;
+  height: auto;
+  border: 1px solid;
+}

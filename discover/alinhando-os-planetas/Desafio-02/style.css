@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;  
+  gap: 1rem;
+}
+aside, main {
+  border: 1px solid;
+  height: 95vh;
+  align-content: center;
+}
+aside {
+  flex-basis: 25%;
+  font-size: 70px;
+  text-align: center;
+}
+main {
+  flex: 1px;
+  font-size: 70px;
+  text-align: center;
+}

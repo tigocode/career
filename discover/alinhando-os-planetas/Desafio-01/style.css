@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 80px;
+  background-color: wheat;
+
+  margin: 0 auto;
+  padding: 0 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 32px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 22px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: .8rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+button {
+  width: 92px;
+  height: 28px;
+  background-color: #3249CB;
+  color: aliceblue;
+  border: none;
+}
