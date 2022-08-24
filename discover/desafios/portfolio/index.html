@@ -1,28 +1,169 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="shortcut icon" href="./src/assets/favicon.ico" type="image/x-icon">
+
+  <!-- Font's -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <title>Portfolio TigoCode</title>
 </head>
 <body>
-  <div class="portfolio">
+  <div class="container">
     <aside>
-      <div class="profile"></div>
-      <div class="links"></div>
-      <div class="technologies"></div>
-      <div class="experiences"></div>
-      <div class="education"></div>
+      <section class="profile box">
+        <div class="box-image">
+          <img src="./src/assets/perfil.png" alt="Foto do Avatar">          
+        </div>
+        
+        <h1>Tiago Pereira Dantas</h1>
+        <small>Full Stack Developer</small>
+      </section>
+      <section class="info-user box">
+            <div class="icons">
+              <img src="./src/assets/map-pin.svg" alt="País">
+              <img src="./src/assets/briefcase.svg" alt="Site TigoCode">
+              <img class="topo" src="./src/assets/github.svg" alt="Git Hub">
+              <img class="topo" src="./src/assets/linkedin.svg" alt="Linkedin">
+              <img class="topo" src="./src/assets/twitter.svg" alt="Twitter">
+              <img class="topo" src="./src/assets/globe.svg" alt="Site">
+              <img class="topo" src="./src/assets/mail.svg" alt="E-mail">
+            </div>
+            <div class="link">
+              <a href="#">              
+                Brasil
+              </a>
+              <a href="#">
+                TigoCode
+              </a>
+              <a href="https://github.com/tiagodantas16" target="_blank">
+                tiagodantas16
+              </a>
+              <a href="https://www.linkedin.com/in/tigo-code/" target="_blank">
+                tigo-code
+              </a>
+              <a href="https://twitter.com/Tigocode" target="_blank">
+                Tigocode
+              </a>
+              <a href="https://tigocode.com.br" target="_blank">
+                https://tigocode.com.br
+              </a>
+              <a href="mailto:TDantas@tigocode.com.br">
+                TDantas@tigocode.com.br
+              </a>
+            </div>
+        
+      </section>
+      <section class="info-tec box">
+        <h2>Tecnologias</h2>
+        <div>
+          <strong>JAVASCRIPT</strong>
+          <strong>REACTJS</strong>
+          <strong>NODEJS</strong>
+          <strong>HTML</strong>
+          <strong>CSS</strong>
+          <strong>GIT</strong>
+          <strong>GITHUB</strong>
+          <strong>ELIXIR</strong>
+          <strong>REACT NATIVE</strong>
+        </div>
+      </section>
+      <section class="info-exp box">
+        <h2>Experênicas</h2>
+        <ul>
+          <li>Flex BPO</li>
+          2012 - Atualment <br>
+          Supervisor Sênior I
+          <li>Code7</li>
+          2012 - Atualment <br>
+          Developer Júnior I
+          <li>Rocketseat</li>
+          Ano(Futuro) - Atualment <br>
+          Developer Pleno I
+          <li>TigoCode</li>
+          Ano(Futuro) - Atualment <br>
+          CEO
+        </ul>
+      </section>
+      <section class="info-edu box">
+        <h2>Educação</h2>
+        <ul>
+          <li>Unopar</li>
+          2016 - 2019 <br>
+          Análise e Desenvolvimento de Sistemas
+          <li>Udemy</li>
+          2017 - 2017 <br>
+          Asp.Net
+          <li>Rocketseat</li>
+          2021 - Atualment <br>
+          Discover
+        </ul>
+      </section>
     </aside>
     <main>
-      <div class="myProjects"></div>
-      <div class="projectOne"></div>
-      <div class="projectTwo"></div>
-      <div class="recentPosts"></div>
-      <div class="post"></div>
+      <section class="project box">
+        <h1>My Projects</h1>
+        <a href="">Veja todos</a>
+      </section>
+      <section class="project one box">
+        <img src="./src/assets/folder.svg" alt="folder">
+        <span>my-onix</span>
+        <p>
+          Consulte os códigos de erro que aparecem no painel do veículo Onix.
+        </p>
+        <img src="./src/assets/star.svg" alt="estrela">
+        <small>100</small>
+        <img src="./src/assets/git-branch.svg" alt="commit">
+        <small>100</small>
+        <img src="" alt="circle">
+        <small>javascript</small>
+      </section>
+      <section class="project two box">
+        <img src="./src/assets/folder.svg" alt="folder">
+        <span>my-onix</span>
+        <p>
+          Consulte os códigos de erro que aparecem no painel do veículo Onix.
+        </p>
+        <img src="./src/assets/star.svg" alt="estrela">
+        <small>100</small>
+        <img src="./src/assets/git-branch.svg" alt="commit">
+        <small>100</small>
+        <img src="" alt="circle">
+        <small>javascript</small>
+      </section>
+      <section class="recents box">
+        <h1>Recent Posts</h1>
+      </section>
+      <section class="posts box">
+        <div class="image">
+          <img src="" alt="avatar">
+        </div>
+        <div class="descrition">
+          <h4>Erro adb devices no Genymotion e Android Studio (React Native)</h4>
+          <p>2 anos atrás</p>
+          <strong>Erro adb devices no Genymotion e Android Studio (React Native)</strong>
+          <small>
+            #react-native
+          </small>
+          <small>
+            #genimotion
+          </small>
+          <small>
+            #genimotion
+          </small>
+          <small>
+            #genimotion
+          </small>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>Feito com 💜 por TigoCode</footer>
   </div>
 </body>
 </html>
