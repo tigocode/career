@@ -3,10 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: #22212C;
+}
 .container {
+  max-width: 1440px;
   width: 100%;
   height: 1767px;
-  max-width: 1440px;
   
   display: flex;
   align-items: flex-start;
@@ -160,4 +163,366 @@
   height: 349px;
   margin-left: 40px;
   margin-top: 30px;
+}
+.info-exp h2 {
+  width: 141px;
+  height: 26px;
+  margin-left: 20px;
+  margin-top: 30px;
+
+  font-family: 'Merriweather Sans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #837E9F;
+  display: inline-block;
+}
+.info-exp ul {
+  width: 175px;
+  height: 243px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.info-exp ul li {
+  margin-left: 20px;
+  margin-top: 15px;
+
+  font-family: 'Merriweather Sans';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #837E9F;
+}
+.info-exp small {
+  margin-left: 20px;
+
+  font-family: 'Merriweather Sans';
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #837E9F;
+}
+.info-exp p {
+  margin-left: 20px;
+
+  font-family: 'Merriweather Sans';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #837E9F;
+}
+.info-edu {
+  width: 348px;
+  height: 352px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.info-edu h2 {
+  width: 141px;
+  height: 26px;
+  margin-left: 20px;
+  margin-top: 30px;
+
+  font-family: 'Merriweather Sans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #837E9F;
+
+  display: inline-block;
+}
+.info-edu ul {
+  width: 175px;
+  height: 246px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.info-edu ul li {
+  margin-left: 20px;
+  margin-top: 11px;
+
+  font-family: 'Merriweather Sans';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #837E9F;
+}
+.info-edu small {
+  margin-left: 20px;
+  
+  font-family: 'Merriweather Sans';
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  
+  color: #837E9F;
+}
+.info-edu p {
+  width: 100%;
+  margin-left: 20px;
+  
+  font-family: 'Merriweather Sans';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  
+  color: #837E9F;
+}
+.project {
+  width: 952px;
+  height: 86px;
+  margin-left: 60px;
+  margin-top: 40px;
+
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.project h1 {
+  width: 121px;
+  height: 26px;
+  margin-left: 30px;
+  margin-top: 30px;
+
+  font-family: 'Merriweather Sans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #837E9F;
+}
+.project a {
+  width: 71px;
+  height: 18px;
+  margin-right: 30px;
+
+  font-family: 'Merriweather Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+
+  color: #837E9F;
+}
+.project-one {
+  width: 952px;
+  margin-left: 60px;
+  margin-top: 31px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.project-one .one {
+  width: 461px;
+  height: 186px;  
+}
+.project-one .one .fix {
+  display: flex;
+}
+.project-one .one img {
+  width: 20px;
+  height: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.project-one .one span {
+  width: 79px;
+  height: 17px;
+  margin-left: 16px;
+  margin-top: 31px;
+
+  font-family: 'Merriweather Sans';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #837E9F;
+
+  display: inline-block;
+}
+.project-one .one p {
+  width: 421px;
+  height: 19px;
+  margin-left: 30px;
+  margin-top: 22px;
+
+  font-family: 'Merriweather Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #837E9F;
+}
+.project-one .one .block {
+  display: flex;
+  justify-content: space-between;
+}
+.project-one .one .block .fit {
+  display: flex;
+}
+.project-one .one .block .fit img {
+  width: 20px;
+  height: 20px;
+  margin-left: 30px;
+  margin-top: 47px;
+}
+.project-one .one .block .fit small {
+  width: 28px;
+  height: 16px;
+  margin-left: 8px;
+  margin-top: 49px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #837E9F;
+}
+.project-one .one .block .tec {
+  margin-right: 30px;
+  display: flex;
+}
+.project-one .one .block .tec div {
+  width: 15px;
+  height: 15px;
+  margin-top: 49px;
+
+  border: 2px solid #837E9F;
+  border-radius: 50%;
+  background: #E7DE79;
+}
+.project-one .one .block .tec small {
+  width: 69px;
+  height: 16px;
+  margin-left: 8px;
+  margin-top: 49px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #837E9F;
+}
+.recents {
+  width: 952px;
+  height: 86px;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.recents h1 {
+  width: 140px;
+  height: 26px;
+  margin-left: 30px;
+  margin-top: 30px;
+
+  font-family: 'Merriweather Sans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #837E9F;
+
+  display: inline-block;
+}
+.posts {
+  width: 952px;
+  height: 201px;
+  margin-left: 60px;
+  margin-top: 30px;
+  
+  display: flex;
+}
+.posts .image img {
+  width: 128px;
+  height: 128px;
+  margin-left: 30px;
+  margin-top: 31px;
+
+  border: 2px solid #35a1ccd3;
+  border-radius: 50%;
+}
+.posts .descrition h4 {
+  width: 612px;
+  height: 31px;
+  margin-left: 20px;
+  margin-top: 30px;
+
+  font-family: 'Merriweather Sans';
+  font-style: noraml;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #837E9F;
+}
+.posts .descrition p {
+  width: 83px;
+  height: 18px;
+  margin-left: 20px;
+
+  font-family: 'Merriweather Sans';
+  font-style: noraml;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #837E9F;
+}
+.posts .descrition strong {
+  width: 501px;
+  height: 20px;
+  margin-left: 20px;
+  margin-top: 28px;
+
+  font-family: 'Merriweather Sans';
+  font-style: noraml;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #837E9F;
+  display: block;
+}
+.posts .descrition .tags {
+  width: 436px;
+  height: 21px;
+  margin-left: 20px;
+  margin-top: 11px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.posts .descrition .tags {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #837E9F;
+}
+.footer {
+  width: 206px;
+  height: 19px;
+  margin-left: 229px;
+  margin-top: 1039px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #837E9F;
 }
